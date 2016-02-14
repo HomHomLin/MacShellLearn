@@ -13,4 +13,8 @@ echo $PATH
 echo $JAVA_HOME
 即可，$符号后面跟着环境变量的具体名字。
 
-3.
+3.如何设置变量？
+答：在mac shell中，我们可以直接对一个变量进行赋值，以下都是可以的：
+AppName=Test
+FOLDER=./${JAVA_HOME}_Release_201 或者 FOLDER=./$JAVA_HOME_Release_201
+
